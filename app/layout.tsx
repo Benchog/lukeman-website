@@ -25,6 +25,11 @@ export const metadata: Metadata = {
   },
   description:
     "Premium consulting support for entrepreneurs and organizations ready for measurable growth.",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

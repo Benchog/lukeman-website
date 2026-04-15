@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
@@ -24,11 +25,25 @@ export function SiteHeader() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-3">
         <Link
           href="/"
-          className="font-heading text-base sm:text-xl font-bold text-[#0A192F] truncate max-w-[70%] sm:max-w-none"
+          className="flex items-center gap-2 sm:gap-3 max-w-[80%] sm:max-w-none"
           onClick={closeMenu}
         >
-          <span className="sm:hidden">Lukeman</span>
-          <span className="hidden sm:inline">Lukeman Consulting Agency</span>
+          <Image
+            src="/lca-logo.svg"
+            alt="LCA logo"
+            width={34}
+            height={34}
+            className="h-8 w-8 sm:h-9 sm:w-9 rounded-lg"
+            priority
+          />
+          <span className="leading-tight">
+            <span className="block font-heading text-base sm:text-xl font-bold tracking-wide">
+              <span className="text-[#0A192F]">LUKEMAN</span>
+            </span>
+            <span className="block text-[10px] sm:text-xs font-semibold tracking-wide text-amber-600">
+              Consulting Agency
+            </span>
+          </span>
         </Link>
         <button
           type="button"

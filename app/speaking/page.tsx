@@ -35,19 +35,12 @@ export default function SpeakingPage() {
           <p className="mt-4 text-gray-600 leading-relaxed">
             Schools and universities, corporate organizations, youth groups, and business communities.
           </p>
-          <div className="mt-6 flex flex-col sm:flex-row gap-3">
-            <Link
-              href="https://calendly.com/lukemantahiru/30min?month=2026-04"
-              target="_blank"
-              className="w-full sm:w-auto min-h-11 text-center rounded-2xl bg-amber-500 px-5 py-2.5 text-sm sm:text-base font-semibold text-[#0A192F] transition-all duration-300 hover:scale-[1.02]"
-            >
-              Book to Invite Lukeman
-            </Link>
+          <div className="mt-6">
             <Link
               href="/contact"
-              className="w-full sm:w-auto min-h-11 text-center rounded-2xl border border-slate-300 px-5 py-2.5 text-sm sm:text-base font-semibold text-[#0A192F] transition-all duration-300 hover:scale-[1.02]"
+              className="w-full sm:w-auto inline-flex items-center justify-center min-h-11 rounded-2xl bg-amber-500 px-5 py-2.5 text-sm sm:text-base font-semibold text-[#0A192F] transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
             >
-              Send Speaking Request
+              Invite Me to Speak
             </Link>
           </div>
         </div>
