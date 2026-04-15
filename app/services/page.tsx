@@ -38,7 +38,7 @@ export default function ServicesPage() {
   return (
     <section className="py-16 sm:py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-[#0A192F]">What I Do (Services)</h1>
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-[#0A192F]">Services</h1>
         <p className="mt-4 max-w-3xl text-gray-600 leading-relaxed">
           Each service is designed to address specific business and personal growth challenges with practical implementation.
         </p>
