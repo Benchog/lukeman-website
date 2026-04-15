@@ -11,7 +11,7 @@ export default function SpeakingPage() {
   return (
     <section className="py-16 sm:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold text-[#0A192F]">Speaking That Moves People to Action</h1>
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-[#0A192F]">Speaking That Moves People to Action</h1>
         <p className="mt-4 max-w-3xl text-gray-600 leading-relaxed">
           I am available for speaking engagements, workshops, and seminars.
         </p>

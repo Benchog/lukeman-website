@@ -16,7 +16,7 @@ export function HomeHero() {
     <section className="py-16 sm:py-20 bg-gradient-to-br from-blue-900 to-blue-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid gap-8 sm:gap-10 lg:grid-cols-2 items-center">
         <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }}>
-          <h1 className="text-[clamp(1.95rem,8.2vw,4rem)] font-bold leading-tight text-white">
+          <h1 className="text-[clamp(1.85rem,7.6vw,3.5rem)] font-bold leading-tight text-white">
             Helping Individuals & Businesses Unlock Growth, Clarity, and Profitability
           </h1>
           <p className="mt-5 sm:mt-6 text-[0.98rem] sm:text-base text-gray-200 leading-relaxed max-w-xl">

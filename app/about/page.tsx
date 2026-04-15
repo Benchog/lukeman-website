@@ -20,7 +20,7 @@ export default function AboutPage() {
           loading="lazy"
         />
         <div>
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-[#0A192F]">About Me</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A192F]">About Me</h1>
           <p className="mt-6 text-gray-600 leading-relaxed">
             I am an Agricultural Engineer turned Business Development Enthusiast, Consultant, and Mentor with a strong passion for helping people and businesses reach their full potential.
           </p>
