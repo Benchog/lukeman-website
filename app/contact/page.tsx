@@ -9,13 +9,13 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <section className="py-20 bg-slate-50">
-      <div className="max-w-7xl mx-auto px-6">
-        <h1 className="text-4xl md:text-6xl font-bold text-[#0A192F]">Let&apos;s Start a Conversation</h1>
+    <section className="py-16 sm:py-20 bg-slate-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-[#0A192F]">Let&apos;s Start a Conversation</h1>
         <p className="mt-4 text-gray-600 leading-relaxed max-w-2xl">
           Let&apos;s work together to build something meaningful and impactful.
         </p>
-        <div className="mt-10 grid gap-6 md:grid-cols-3">
+        <div className="mt-8 sm:mt-10 grid gap-4 sm:gap-6 md:grid-cols-3">
           {[
             { icon: Mail, title: "Email", value: "lukemantahiru@gmail.com", href: "mailto:lukemantahiru@gmail.com" },
             { icon: Phone, title: "Phone", value: "0599117796 / 0500834031", href: "tel:+233599117796" },
@@ -25,7 +25,7 @@ export default function ContactPage() {
               key={title}
               href={href}
               target={href.startsWith("http") ? "_blank" : undefined}
-              className="rounded-2xl bg-white p-6 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
+              className="rounded-2xl bg-white p-5 sm:p-6 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
             >
               <div className="bg-amber-100 p-3 rounded-xl w-fit">
                 <Icon className="w-6 h-6 text-amber-600" />

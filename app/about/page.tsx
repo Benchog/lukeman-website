@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <section className="py-20">
-      <div className="max-w-7xl mx-auto px-6 grid gap-10 lg:grid-cols-2 items-center">
+    <section className="py-16 sm:py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 grid gap-8 sm:gap-10 lg:grid-cols-2 items-center">
         <Image
           src="/Lukeman.jpeg"
           alt="Lukeman Tahiru - Business Consultant"
@@ -20,7 +20,7 @@ export default function AboutPage() {
           loading="lazy"
         />
         <div>
-          <h1 className="text-4xl md:text-6xl font-bold text-[#0A192F]">About Me</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-[#0A192F]">About Me</h1>
           <p className="mt-6 text-gray-600 leading-relaxed">
             I am an Agricultural Engineer turned Business Development Enthusiast, Consultant, and Mentor with a strong passion for helping people and businesses reach their full potential.
           </p>
@@ -34,7 +34,7 @@ export default function AboutPage() {
               { icon: Users, label: "Personal development and mindset transformation" },
               { icon: CheckCircle2, label: "Financial growth and sustainability" },
             ].map(({ icon: Icon, label }) => (
-              <div key={label} className="rounded-2xl bg-slate-50 p-4">
+              <div key={label} className="rounded-2xl bg-slate-50 p-4 sm:p-5">
                 <div className="bg-amber-100 p-3 rounded-xl w-fit">
                   <Icon className="w-6 h-6 text-amber-600" />
                 </div>
