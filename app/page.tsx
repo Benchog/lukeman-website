@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import {
   CheckCircle2,
@@ -96,8 +97,17 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 bg-[#0A192F]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
+      <section className="relative overflow-hidden py-14 sm:py-16 bg-[#0A192F]">
+        <Image
+          src="/Lukeman.jpeg"
+          alt=""
+          fill
+          aria-hidden="true"
+          className="object-cover opacity-10"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-[#0A192F]/85" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">Let&apos;s Build Something That Actually Works</h2>
           <p className="mt-4 text-slate-300 leading-relaxed max-w-2xl mx-auto">
             Ready to take your business or personal growth to the next level?
