@@ -20,16 +20,19 @@ export default function AboutPage() {
           loading="lazy"
         />
         <div>
-          <h1 className="text-4xl md:text-6xl font-bold text-[#0A192F]">From Engineer to Growth Consultant</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-[#0A192F]">About Me</h1>
           <p className="mt-6 text-gray-600 leading-relaxed">
-            Lukeman combines systems thinking with practical market strategy to help entrepreneurs build resilient businesses.
+            I am an Agricultural Engineer turned Business Development Enthusiast, Consultant, and Mentor with a strong passion for helping people and businesses reach their full potential.
+          </p>
+          <p className="mt-4 text-gray-600 leading-relaxed">
+            I believe that success is not just about working hard, but about thinking right, building strong systems, and developing the right relationships.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {[
-              { icon: TrendingUp, label: "Business Growth Systems" },
-              { icon: Target, label: "Strategic Clarity" },
-              { icon: Users, label: "Leadership Mentorship" },
-              { icon: CheckCircle2, label: "Execution Accountability" },
+              { icon: TrendingUp, label: "Business growth and strategy" },
+              { icon: Target, label: "Sales and marketing excellence" },
+              { icon: Users, label: "Personal development and mindset transformation" },
+              { icon: CheckCircle2, label: "Financial growth and sustainability" },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="rounded-2xl bg-slate-50 p-4">
                 <div className="bg-amber-100 p-3 rounded-xl w-fit">

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { ArrowRight, CheckCircle2, Mic } from "lucide-react";
 
 const bullets = [
   "Results-driven strategies",
@@ -17,14 +17,14 @@ export function HomeHero() {
       <div className="max-w-7xl mx-auto px-6 grid gap-10 lg:grid-cols-2 items-center">
         <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }}>
           <h1 className="text-4xl md:text-6xl font-bold text-white">
-            Helping Businesses Unlock Growth, Clarity, and Profitability
+            Helping Individuals & Businesses Unlock Growth, Clarity, and Profitability
           </h1>
           <p className="mt-6 text-gray-200 leading-relaxed max-w-xl">
-            I partner with founders and organizations to build strategies that work in real markets with real constraints.
+            I work with entrepreneurs, professionals, and organizations to build strong systems, develop winning mindsets, and achieve sustainable business and financial growth.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
-              href="https://calendly.com"
+              href="https://calendly.com/lukemantahiru/30min?month=2026-04"
               target="_blank"
               className="rounded-2xl bg-amber-500 px-6 py-3 text-[#0A192F] font-semibold inline-flex items-center gap-2 transition-all duration-300 hover:scale-[1.02]"
             >
@@ -35,6 +35,13 @@ export function HomeHero() {
               className="rounded-2xl border border-white/50 px-6 py-3 text-white font-semibold transition-all duration-300 hover:scale-[1.02]"
             >
               Work With Me
+            </Link>
+            <Link
+              href="/speaking"
+              className="rounded-2xl border border-white/50 px-6 py-3 text-white font-semibold transition-all duration-300 hover:scale-[1.02] inline-flex items-center gap-2"
+            >
+              <Mic className="w-5 h-5" />
+              Invite Me to Speak
             </Link>
           </div>
           <div className="mt-8 space-y-2">

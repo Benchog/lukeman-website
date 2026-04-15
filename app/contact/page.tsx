@@ -11,14 +11,14 @@ export default function ContactPage() {
   return (
     <section className="py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-6">
-        <h1 className="text-4xl md:text-6xl font-bold text-[#0A192F]">Let&apos;s Start a Strategic Conversation</h1>
+        <h1 className="text-4xl md:text-6xl font-bold text-[#0A192F]">Let&apos;s Start a Conversation</h1>
         <p className="mt-4 text-gray-600 leading-relaxed max-w-2xl">
-          Share your goals and I&apos;ll help you design a practical path to measurable outcomes.
+          Let&apos;s work together to build something meaningful and impactful.
         </p>
         <div className="mt-10 grid gap-6 md:grid-cols-3">
           {[
             { icon: Mail, title: "Email", value: "lukemantahiru@gmail.com", href: "mailto:lukemantahiru@gmail.com" },
-            { icon: Phone, title: "Phone", value: "+233 599 117 796", href: "tel:+233599117796" },
+            { icon: Phone, title: "Phone", value: "0599117796 / 0500834031", href: "tel:+233599117796" },
             { icon: MessageCircle, title: "WhatsApp", value: "Chat on WhatsApp", href: "https://wa.me/233599117796" },
           ].map(({ icon: Icon, title, value, href }) => (
             <Link

@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="max-w-7xl mx-auto px-6 grid gap-8 md:grid-cols-3">
         <div>
           <p className="font-heading text-2xl font-bold text-white">
-            LUKEMAN<span className="text-amber-500">.</span>
+            Lukeman Consulting Agency
           </p>
           <p className="mt-3 text-sm text-slate-300">Building people. Building businesses.</p>
         </div>
@@ -26,7 +26,7 @@ export function SiteFooter() {
         <div className="space-y-3 text-sm text-slate-300">
           <p className="font-heading text-lg font-semibold text-white">Contact</p>
           <p className="flex items-center gap-2"><Mail className="h-4 w-4 text-amber-500" /> lukemantahiru@gmail.com</p>
-          <p className="flex items-center gap-2"><Phone className="h-4 w-4 text-amber-500" /> +233 599 117 796</p>
+          <p className="flex items-center gap-2"><Phone className="h-4 w-4 text-amber-500" /> 0599117796 / 0500834031</p>
           <p className="flex items-center gap-2"><MapPin className="h-4 w-4 text-amber-500" /> Kumasi, Ghana</p>
         </div>
       </div>

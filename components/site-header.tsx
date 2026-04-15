@@ -17,7 +17,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="font-heading text-xl font-bold text-[#0A192F]">
-          LUKEMAN<span className="text-amber-500">.</span>
+          Lukeman Consulting Agency
         </Link>
         <nav className="hidden md:flex items-center gap-7">
           {links.map((link) => (
@@ -32,7 +32,7 @@ export function SiteHeader() {
             </Link>
           ))}
           <Link
-            href="https://calendly.com"
+            href="https://calendly.com/lukemantahiru/30min?month=2026-04"
             target="_blank"
             className="rounded-xl bg-amber-500 px-4 py-2 text-sm font-semibold text-[#0A192F] transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
           >
