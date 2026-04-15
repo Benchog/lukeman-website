@@ -41,7 +41,7 @@ export function HomeHero() {
               className="w-full sm:w-auto min-h-11 justify-center rounded-2xl border border-white/50 px-5 py-2.5 sm:px-6 sm:py-3 text-white text-sm sm:text-base font-semibold transition-all duration-300 hover:scale-[1.02] inline-flex items-center gap-2"
             >
               <Mic className="w-5 h-5" />
-              Invite Me to Speak
+              Invite to Speak
             </Link>
           </div>
           <div className="mt-6 sm:mt-8 space-y-2">

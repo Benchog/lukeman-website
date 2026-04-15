@@ -40,7 +40,7 @@ export default function SpeakingPage() {
               href="/contact"
               className="w-full sm:w-auto inline-flex items-center justify-center min-h-11 rounded-2xl bg-amber-500 px-5 py-2.5 text-sm sm:text-base font-semibold text-[#0A192F] transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
             >
-              Invite Me to Speak
+              Invite to Speak
             </Link>
           </div>
         </div>
