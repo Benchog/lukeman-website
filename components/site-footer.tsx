@@ -4,15 +4,15 @@ import { Mail, MapPin, Phone } from "lucide-react";
 export function SiteFooter() {
   return (
     <footer className="bg-[#0A192F] py-8 sm:py-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 grid gap-6 md:grid-cols-3">
-        <div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-2 gap-x-5 gap-y-4 md:grid-cols-3">
+        <div className="col-span-2 md:col-span-1">
           <p className="font-heading text-xl sm:text-2xl font-bold">
             <span className="text-white">LUKEMAN</span>{" "}
             <span className="text-amber-400">Consulting Agency</span>
           </p>
           <p className="mt-2 text-sm text-slate-300">Building people. Building businesses.</p>
         </div>
-        <div className="space-y-2 text-sm text-slate-300">
+        <div className="space-y-1.5 text-sm text-slate-300">
           <p className="font-heading text-lg font-semibold text-white">Quick Links</p>
           <Link href="/services" className="block hover:text-amber-400">
             Services
@@ -24,7 +24,7 @@ export function SiteFooter() {
             Contact
           </Link>
         </div>
-        <div className="space-y-2 text-sm text-slate-300">
+        <div className="space-y-1.5 text-sm text-slate-300">
           <p className="font-heading text-lg font-semibold text-white">Contact</p>
           <p className="flex items-center gap-2"><Mail className="h-4 w-4 text-amber-500" /> lukemantahiru@gmail.com</p>
           <p className="flex items-center gap-2"><Phone className="h-4 w-4 text-amber-500" /> 0599117796 / 0500834031</p>
