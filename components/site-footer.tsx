@@ -28,7 +28,7 @@ export function SiteFooter() {
           <p className="font-heading text-lg font-semibold text-white">Contact</p>
           <p className="flex items-center gap-2"><Mail className="h-4 w-4 text-amber-500" /> lukemantahiru@gmail.com</p>
           <p className="flex items-center gap-2"><Phone className="h-4 w-4 text-amber-500" /> 0599117796 / 0500834031</p>
-          <p className="flex items-center gap-2"><MapPin className="h-4 w-4 text-amber-500" /> Kumasi, Ghana</p>
+          <p className="flex items-center gap-2"><MapPin className="h-4 w-4 text-amber-500" /> Accra, Ghana</p>
         </div>
       </div>
     </footer>
