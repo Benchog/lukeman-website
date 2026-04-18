@@ -3,7 +3,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-[#0A192F] py-8 sm:py-10">
+    <footer className="bg-[#0A192F] py-8 pb-24 sm:pb-10 sm:py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-2 gap-x-5 gap-y-4 md:grid-cols-3">
         <div className="col-span-2 md:col-span-1">
           <p className="font-heading text-xl sm:text-2xl font-bold">
@@ -26,9 +26,9 @@ export function SiteFooter() {
         </div>
         <div className="space-y-1.5 text-sm text-slate-300">
           <p className="font-heading text-lg font-semibold text-white">Contact</p>
-          <p className="flex items-center gap-2"><Mail className="h-4 w-4 text-amber-500" /> lukemantahiru@gmail.com</p>
-          <p className="flex items-center gap-2"><Phone className="h-4 w-4 text-amber-500" /> 0599117796 / 0500834031</p>
-          <p className="flex items-center gap-2"><MapPin className="h-4 w-4 text-amber-500" /> Accra, Ghana</p>
+          <p className="flex items-start gap-2 break-all"><Mail className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" /> lukemantahiru@gmail.com</p>
+          <p className="flex items-start gap-2"><Phone className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" /> 0599117796 / 0500834031</p>
+          <p className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" /> Accra, Ghana</p>
         </div>
       </div>
     </footer>
